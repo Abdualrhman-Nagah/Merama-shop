@@ -94,20 +94,20 @@ body{
 **************************************/
 .button-w{
     position: fixed;
-    bottom: 5px;
+    bottom: -5px;
     right: 10px;
     z-index: 9999;
-    transform: scaleY(250px);
+    transform: scaleY(-250px);
 }
 .button-w img{
     width: 80px;
 }
 .button-c{
     position: fixed;
-    bottom: 5px;
+    bottom: -5px;
     left: 10px;
     z-index: 9999;
-    transform: scaleY(250px);
+    transform: scaleY(-250px);
 }
 .button-c img{
     width: 70px;
