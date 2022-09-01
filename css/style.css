@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    width: 100%;
+    background-color: rgb(250, 224, 223);
+}
+.page{
+    width: 100%;
+}
+.contenar{
+    width: 90%;
+    margin: auto;
+}
+/*************************************************/
+.text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.text h1{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+}
+.text p{
+    font-size: 20px;
+    color: black;
+}
+/****************************************************/
+.video{
+    text-align: center;
+}
+.video video{
+    width: 350px;
+    border-radius: 15px;
+}
+/****************************************************/
+.Product-detail{
+    width: 100%;
+}
+.Product-detail p{
+    font-size: 20px;
+    text-align: end;
+    width: 100%;
+    margin: 50px 0;
+}
+.Product-detail p span{
+    font-weight: 800;
+}
+/*******************************
+*********** text move***********
+********************************/
+.textmove{
+    width: 450px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    width: 100%;
+    height: fit-content;
+}
+.swiper-slide{
+    text-align: center;
+}
+.swiper-slide img{
+    width: 350px;
+    border-radius: 15px;
+}
+.swiper .swiper-button-next , .swiper .swiper-button-prev{
+    color: black;
+}
+.swiper .swiper-button-next:hover{
+    color: #CAAF5F;
+}
+.swiper .swiper-button-prev:hover{
+    color: #CAAF5F;
+}
+/*************************************
+*************end text move************
+**************************************/
+.titel{
+    text-align: center;
+    margin-bottom: 50px;
+}
+/*************************************
+*****************button***************
+**************************************/
+.button-w{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 9999;
+}
+.button-w img{
+    width: 80px;
+}
+.button-c{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+.button-c img{
+    width: 70px;
+}
+/*************************************
+*************end button****************
+**************************************/
+@media only screen and (max-width:600px){
+    .text{
+        margin-bottom: 20px;
+    }
+    .video video{
+        width: 250px;
+    }
+    .Product-detail p{
+        font-size: 13px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .textmove{
+        width: 300px;
+    }
+    .swiper-slide img{
+        width: 200px;
+    }
+    .titel{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .button-w img{
+        width: 50px;
+    }
+    .button-c img{
+        width: 45px;
+    }
+}
