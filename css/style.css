@@ -94,22 +94,18 @@ body{
 **************************************/
 .button-w{
     position: fixed;
-    bottom: -5px;
+    bottom: 250px;
     right: 10px;
     z-index: 9999;
-    transform: scaleY(-250px);
-    margin-top: -100px;
 }
 .button-w img{
     width: 80px;
 }
 .button-c{
     position: fixed;
-    bottom: -5px;
+    bottom: 250px;
     left: 10px;
     z-index: 9999;
-    transform: scaleY(-250px);
-    margin-top: -100px;
 }
 .button-c img{
     width: 70px;
